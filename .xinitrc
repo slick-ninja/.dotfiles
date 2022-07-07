@@ -8,4 +8,5 @@ lxsession &
 xfce4-power-manager &
 volumeicon &
 slstatus &
+nm-applet &
 exec dwm
