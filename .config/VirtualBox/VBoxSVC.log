@@ -1,0 +1,57 @@
+00:00:00.000125 main     VirtualBox XPCOM Server 6.1.34 r150636 linux.amd64 (May 30 2022 06:37:05) release log
+00:00:00.000126 main     Log opened 2022-07-07T13:12:04.089941000Z
+00:00:00.000127 main     Build Type: release
+00:00:00.000128 main     OS Product: Linux
+00:00:00.000128 main     OS Release: 5.15.52-1-lts
+00:00:00.000129 main     OS Version: #1 SMP Sat, 02 Jul 2022 20:04:03 +0000
+00:00:00.000140 main     DMI Product Name: Inspiron 3501
+00:00:00.000144 main     DMI Product Version: 
+00:00:00.000147 main     Firmware type: UEFI
+00:00:00.000532 main     Secure Boot: Disabled
+00:00:00.000549 main     Host RAM: 7678MB (7.4GB) total, 6858MB (6.6GB) available
+00:00:00.000550 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000551 main     Process ID: 6286
+00:00:00.000551 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001392 main     IPC socket path: /tmp/.vbox-manish-ipc/ipcd
+00:00:00.104374 nspr-2   VirtualBox: object creation starts
+00:00:00.104437 nspr-2   Home directory: '/home/manish/.config/VirtualBox'
+00:00:00.104572 nspr-2   Loading settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.105644 nspr-2   USB: Unknown USB device detected (idVendor: 0x0cf3, idProduct: 0xe009)
+00:00:00.105927 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.120411 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.121417 nspr-2   HostDnsMonitor: initializing
+00:00:00.121589 nspr-2   NAT: resolv.conf: nameserver 192.168.1.254
+00:00:00.121601 nspr-2   HostDnsMonitor: updating information
+00:00:00.121611 nspr-2   HostDnsMonitor: old information
+00:00:00.121615 nspr-2     no server entries
+00:00:00.121617 nspr-2     no domain set
+00:00:00.121620 nspr-2     no search string entries
+00:00:00.121622 nspr-2   HostDnsMonitor: new information
+00:00:00.121625 nspr-2     server 1: 192.168.1.254
+00:00:00.121628 nspr-2     no domain set
+00:00:00.121630 nspr-2     no search string entries
+00:00:00.124880 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.129355 nspr-2   Loading settings file "/home/manish/VirtualBox VMs/Arch/Arch.vbox" with version "1.16-linux"
+00:00:00.130146 nspr-2   VirtualBox: object created
+00:00:05.176185 nspr-2   Saving settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.267936 nspr-3   Saving settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.340575 nspr-3   Saving settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.406175 nspr-2   Saving settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:09.548377 nspr-3   Saving settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.397992 nspr-2   Saving settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.471236 nspr-2   Saving settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:14.082276 nspr-3   Launched VM: 3892319744 pid: 6403 (0x1903) frontend: GUI/Qt name: Arch
+00:00:15.182344 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:15.266578 nspr-5   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:15.294954 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:20.744190 nspr-9   Saving settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:22.094616 nspr-8   Saving settings file "/home/manish/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:02.203926 nspr-7   Saving settings file "/home/manish/VirtualBox VMs/Arch/Arch.vbox" with version "1.16-linux"
+00:13:02.314179 nspr-7   Saving settings file "/home/manish/VirtualBox VMs/Arch/Arch.vbox" with version "1.16-linux"
+00:13:08.229472 main     VirtualBox: object deletion starts
+00:13:08.229550 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/manish/VirtualBox VMs/Arch/Arch.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:13:08.229774 main     HostDnsMonitor: shutting down ...
+00:13:08.242972 main     HostDnsMonitor: shut down
+00:13:08.706997 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:13:13.273074 main     {00007f25ec0178e0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:13:13.273612 main     VirtualBox: object deleted
