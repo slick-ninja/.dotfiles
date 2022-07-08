@@ -9,4 +9,5 @@ xfce4-power-manager &
 volumeicon &
 slstatus &
 nm-applet &
+[ ! -s ~/.config/mpd/pid ] && mpd
 exec dwm

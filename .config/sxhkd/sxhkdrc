@@ -1,0 +1,13 @@
+#MPD (Music Player Daemon) Controls
+
+#Next Music
+alt + n
+   mpc next
+
+#Previous Music
+alt + p
+   mpc prev
+
+#Play/Pause
+alt + s
+   mpc {play,pause}

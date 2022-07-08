@@ -1,5 +1,5 @@
 /* See LICENSE file for copyright and license details. */
-
+/*Configuration BY: Manish Koirala*/
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int gappx     = 5;        /* gaps between windows */
