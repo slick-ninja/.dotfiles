@@ -1,0 +1,4 @@
+add ~/Music/
+refresh
+reload
+bind common <key> add

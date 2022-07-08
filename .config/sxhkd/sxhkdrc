@@ -1,17 +1,7 @@
-#MPD (Music Player Daemon) Controls
-
-#Next Music
+#Music Player
 alt + m
-   mpc next
+   st -e cmus
 
-#Previous Music
-alt + n
-   mpc prev
-
-#Play/Pause
-alt + s
-   mpc {play,pause}
-
-#DMENU (launch terminal apps directly)
-alt + p
-   alacritty -e $(dmenu_path | dmenu)
+#Web Browser
+alt + q
+   st -e qutebrowser

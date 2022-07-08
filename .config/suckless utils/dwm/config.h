@@ -34,7 +34,7 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     iscentered   isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            0,           1,           -1 },
-	{ "firefox",  NULL,       NULL,       1 << 1,       0,           0,           -1 },
+	{ "qutebrowser",NULL,     NULL,       1 << 1,       0,           0,           -1 },
 	{ "Alacritty",NULL,       NULL,       1,            1,           1,           -1 },
 	{ "Zathura",  NULL,       NULL,       1 << 8,       0,           0,           -1 },
 	{ "VirtualBox Manager",NULL,NULL,     1 << 7,       1,           1,           -1 },
@@ -69,14 +69,15 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/usr/local/bin/st", "-c", cmd, NULL } }
 
 /* commands */
-static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
+static char dmenumon[2] = "0";  /*component of dmenucmd, manipulated in spawn() */
+static const char *roficmd[] = { "rofi", "-show","drun","-show-icons", NULL };
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *filemgr[]  = { "pcmanfm", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
+	{ MODKEY,                       XK_p,      spawn,          {.v = roficmd } },
 	{ MODKEY,	                XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = filemgr } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
