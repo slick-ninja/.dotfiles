@@ -9,7 +9,6 @@ xfce4-power-manager &
 volumeicon &
 slstatus &
 nm-applet &
-st -e cmus&
 alacritty &
 pcmanfm &
 mpd &

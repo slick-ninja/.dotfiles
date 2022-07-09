@@ -8,3 +8,6 @@
 alias ls='ls --color=auto'
 alias ll='ls -lah --color=auto'
 PS1='[\u@\h \W]\$ '
+
+#Custom Commands
+name_display
