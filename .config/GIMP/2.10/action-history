@@ -1,4 +1,12 @@
 # GIMP action-history
 
+(history-item "edit-clear" 0)
+(history-item "layers-new" 2)
+(history-item "image-new" 2)
+(history-item "file-open-as-layers" 0)
+(history-item "dialogs-undo-history" 0)
+(history-item "dialogs-preferences" 0)
+(history-item "layers-delete" 0)
+(history-item "file-quit" 1)
 
 # end of action-history
