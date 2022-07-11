@@ -1,7 +1,25 @@
 #Music Player
 alt + m
-   st -e cmus
+  rhythmbox 
 
 #Web Browser
 alt + q
-   st -e qutebrowser
+   qutebrowser
+
+#Discord
+alt + d
+   discord
+
+#Gimp
+alt + g
+   gimp
+
+#Youtube
+alt + y
+   alacritty -e ytfzf
+
+#obs
+alt + o
+   obs
+
+

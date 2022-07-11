@@ -1,15 +1,22 @@
 #!/bin/bash
 
+#Daemons:
+
 sxhkd &
 dunst &
+lxsession &
+
+#Apps-tray or Background
 nitrogen --restore &
 picom -f &
-lxsession &
 xfce4-power-manager &
 volumeicon &
 slstatus &
 nm-applet &
-alacritty &
-pcmanfm &
-mpd &
+
+#StartUp Apps
+#alacritty &
+#pcmanfm &
+#rhythmbox &
+
 exec dwm

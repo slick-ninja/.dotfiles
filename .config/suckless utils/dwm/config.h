@@ -25,7 +25,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "" ,"www", "proj", "files" ,"music" , "videos", "images", "extras", "study" };
+static const char *tags[] = { "" ,"www", "study", "chat" ,"music" , "vids", "imgs", "extras", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -33,14 +33,17 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     iscentered   isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           1,           -1 },
+	{ "Gimp",     NULL,       NULL,       1 << 6,       0,           1,           -1 },
 	{ "qutebrowser",NULL,     NULL,       1 << 1,       0,           0,           -1 },
 	{ "Alacritty",NULL,       NULL,       1,            0,           0,           -1 },
-	{ "Zathura",  NULL,       NULL,       1 << 8,       0,           0,           -1 },
-	{ "VirtualBox Manager",NULL,NULL,     1 << 7,       1,           1,           -1 },
-	{ "Pcmanfm",  NULL,       NULL,       1 << 3,       1,           1,           -1 },
+	{ "Zathura",  NULL,       NULL,       1 << 2,       0,           0,           -1 },
+	{ "VirtualBox Manager",NULL,NULL,     1 << 7,       0,           1,           -1 },
+	{ "Pcmanfm",  NULL,       NULL,       1 << 8,       0,           0,           -1 },
 	{ "mpv",      NULL,       NULL,       1 << 5,       1,           1,           -1 },
-	{ "st",       NULL,       NULL,       1 << 4,       1,           1,           -1 },
+	{ "Rhythmbox",NULL,       NULL,       1 << 4,       1,           1,           -1 },
+	{ "Nitrogen", NULL,       NULL,       1 << 6,       1,           1,           -1 },
+	{ "obs",      NULL,       NULL,       1 << 7,       0,           0,           -1 },
+	{ "discord",  NULL,       NULL,       1 << 3,       0,           0,           -1 },
 
 };
 
