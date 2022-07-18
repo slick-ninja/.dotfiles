@@ -1,25 +1,43 @@
 #Music Player
-alt + m
-  rhythmbox 
+alt + shift + m
+   rhythmbox 
 
 #Web Browser
-alt + q
-   qutebrowser
+alt + shift + f
+   firefox
 
 #Discord
-alt + d
+alt + shift + d
    discord
 
 #Gimp
-alt + g
+alt + shift + g
    gimp
 
 #Youtube
-alt + y
-   alacritty -e ytfzf
+alt + shift + y
+   ytfzf -D
 
 #obs
-alt + o
+alt + shift + o
    obs
 
+#Anime-viewer
+alt + shift + a
+   alacritty -e ani-cli
 
+#Emacs
+alt + shift + c
+   emacs
+
+#Slock-screen lock
+alt + shift + l
+   slock
+
+#Zathura-pdf
+alt + shift + z
+   zathura
+
+#Virtualbox
+alt + shift + v
+   virtualbox

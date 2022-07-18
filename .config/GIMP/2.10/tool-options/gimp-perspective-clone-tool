@@ -2,9 +2,9 @@
 
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
-(pattern "Pine")
+(pattern "Stone")
 (palette "Color History")
-(brush-size 51)
+(brush-size 162)
 (brush-hardness 0.5)
 
 # end of gimp-perspective-clone-tool options

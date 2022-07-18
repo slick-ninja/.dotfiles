@@ -12,8 +12,8 @@
 (theme "System")
 (icon-theme "Color")
 (icon-size large)
-(layer-new-name "Solid Black")
-(layer-new-fill-type foreground)
+(layer-new-name "Background")
+(layer-new-fill-type pattern)
 (fill-options
     (style solid)
     (antialias yes)

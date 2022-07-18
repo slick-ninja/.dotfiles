@@ -1,22 +1,25 @@
 #!/bin/bash
 
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+
 #Daemons:
 
 sxhkd &
 dunst &
 lxsession &
+xfce4-power-manager &
 
 #Apps-tray or Background
 nitrogen --restore &
-picom -f &
-xfce4-power-manager &
+picom &
 volumeicon &
 slstatus &
 nm-applet &
 
 #StartUp Apps
-#alacritty &
-#pcmanfm &
+alacritty &
+pcmanfm &
 #rhythmbox &
+#firefox &
 
 exec dwm

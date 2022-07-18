@@ -2,8 +2,9 @@
 
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
-(pattern "Pine")
+(pattern "Stone")
 (gradient "FG to BG (RGB)")
 (palette "Color History")
+(vectors-edit-mode edit)
 
 # end of gimp-vector-tool options

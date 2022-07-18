@@ -1,18 +1,19 @@
-00:00:00.074500 VirtualBox GUI VM Selector Window 6.1.34 r150636 linux.amd64 (May 30 2022 06:37:05) release log
-00:00:00.074501 Log opened 2022-07-11T13:02:01.862456000Z
-00:00:00.074502 Build Type: release
-00:00:00.074503 OS Product: Linux
-00:00:00.074504 OS Release: 5.15.52-1-lts
-00:00:00.074504 OS Version: #1 SMP Sat, 02 Jul 2022 20:04:03 +0000
-00:00:00.074514 DMI Product Name: Inspiron 3501
-00:00:00.074517 DMI Product Version: 
-00:00:00.074519 Firmware type: UEFI
-00:00:00.074867 Secure Boot: Disabled
-00:00:00.074887 Host RAM: 7678MB (7.4GB) total, 6996MB (6.8GB) available
-00:00:00.074888 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.074888 Process ID: 5739
-00:00:00.074889 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.074905 Qt version: 5.15.5
-00:00:00.079257 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.338337 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 5x35 x 1049x1038
-00:00:00.351468 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.257653 VirtualBox GUI VM Selector Window 6.1.34 r150636 linux.amd64 (May 30 2022 06:37:05) release log
+00:00:02.257655 Log opened 2022-07-15T14:36:32.017867000Z
+00:00:02.257655 Build Type: release
+00:00:02.257657 OS Product: Linux
+00:00:02.257658 OS Release: 5.15.54-1-lts
+00:00:02.257658 OS Version: #1 SMP Tue, 12 Jul 2022 18:08:24 +0000
+00:00:02.257674 DMI Product Name: Inspiron 3501
+00:00:02.257678 DMI Product Version: 
+00:00:02.257682 Firmware type: UEFI
+00:00:02.258119 Secure Boot: Disabled
+00:00:02.258147 Host RAM: 7678MB (7.4GB) total, 7298MB (7.1GB) available
+00:00:02.258151 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:02.258152 Process ID: 1530
+00:00:02.258152 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:02.258176 Qt version: 5.15.5
+00:00:02.381041 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:04.295597 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 5x35 x 1045x1034
+00:00:04.314938 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:34.772859 GUI: UIMediumEnumerator: Medium-enumeration finished!

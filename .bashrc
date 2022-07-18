@@ -7,7 +7,10 @@
 
 alias ls='ls --color=auto'
 alias ll='ls -lah --color=auto'
+alias Ss='sudo pacman -S'
+alias Syu='sudo pacman -Syu'
+alias Rm='sudo pacman -Rcns'
 PS1='[\u@\h \W]\$ '
 
 #Custom Commands
-name_display
+colorscript -e crunchbang
